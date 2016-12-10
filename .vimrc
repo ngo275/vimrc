@@ -8,6 +8,8 @@ set visualbell t_vb=
 set noerrorbells
 inoremap <silent>jj<ESC>
 
+set clipboard=unnamed,autoselect
+
 if has('vim_starting')
     " 初回起動時のみruntimepathにNeoBundleのパスを指定する
     set runtimepath+=~/.vim/bundle/neobundle.vim/
