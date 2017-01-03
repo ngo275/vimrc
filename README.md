@@ -5,4 +5,3 @@
 - 3, `cd ~/`
 - 4, `git clone https://github.com/ngo275/vimrc.git`
 - 5, `mv ~/vimrc/.vimrc ~/`
-- 6, open vim and type `y` or `vim ~/.vimrc`, and then your vim will be upgraded!
