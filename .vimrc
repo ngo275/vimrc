@@ -72,7 +72,6 @@ NeoBundleCheck
 
 set fileencoding=utf-8 " 保存時の文字コード
 set fileencodings=ucs-boms,utf-8,euc-jp,cp932 " 読み込み時の文字コードの自動判別. 左側が優先される
-set fileformats=unix,dos,mac " 改行コードの自動判別. 左側が優先される
 set ambiwidth=double " □や○文字が崩れる問題を解決
 
 set expandtab " タブ入力を複数の空白入力に置き換える
@@ -90,11 +89,6 @@ set whichwrap=b,s,h,l,<,>,[,],~ " カーソルの左右移動で行末から次�
 set number " 行番号を表示
 "set cursorline " カーソルラインをハイライト
 
-" 行が折り返し表示されていた場合、行単位ではなく表示行単位でカーソルを移動する
-nnoremap j gj
-nnoremap k gk
-nnoremap <down> gj
-nnoremap <up> gk
 " バックスペースキーの有効化
 set backspace=indent,eol,start
 
